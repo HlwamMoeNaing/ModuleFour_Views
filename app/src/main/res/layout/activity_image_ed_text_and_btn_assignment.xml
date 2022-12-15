@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".assignments.ImageEdTextAndBtnAssignmentActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:id="@+id/tvOne"
+        android:layout_marginTop="5dp"/>
+
+
+    <EditText
+        android:id="@+id/edOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvOne"
+        android:layout_marginTop="10dp"
+        android:hint="@string/name_hint"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/ivRandom"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/edOne"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/test" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivRandom"
+        android:id="@+id/btnSayHello"
+        android:layout_marginTop="15dp"
+        android:text="@string/say_hello"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxApple"
+        android:text="@string/apple"
+        android:layout_below="@id/btnSayHello"/>
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxOrange"
+        android:text="@string/orange"
+        android:layout_toEndOf="@id/checkBoxApple"
+        android:layout_below="@id/btnSayHello"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxwatermelon"
+        android:text="@string/watermelon"
+        android:layout_toEndOf="@id/checkBoxOrange"
+        android:layout_below="@id/btnSayHello"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCheckFruit"
+        android:text="@string/check_fruit"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/btnSayHello"/>
+
+</RelativeLayout>
