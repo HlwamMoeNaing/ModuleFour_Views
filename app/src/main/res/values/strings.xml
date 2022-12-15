@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ModuleFour_Views</string>
+    <string name="greeting">Greeting</string>
 </resources>
