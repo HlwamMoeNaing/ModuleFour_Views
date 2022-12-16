@@ -3,11 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/hlwam/Desktop/PADC/ModuleFour_Views/app/src/main/res/layout/activity_image_ed_text_and_btn_assignment.xml" value="0.184375" />
-        <entry key="..\:/Users/hlwam/Desktop/PADC/ModuleFour_Views/app/src/main/res/layout/activity_image_view.xml" value="0.184375" />
-        <entry key="..\:/Users/hlwam/Desktop/PADC/ModuleFour_Views/app/src/main/res/layout/activity_main.xml" value="0.184375" />
+        <entry key="app/src/main/res/layout/activity_image_ed_text_and_btn_assignment.xml" value="0.1616294349540079" />
         <entry key="app/src/main/res/layout/activity_image_view.xml" value="0.3582427536231884" />
+        <entry key="app/src/main/res/layout/activity_linear_layout_with_assigment.xml" value="0.38645833333333335" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18697916666666667" />
+        <entry key="app/src/main/res/layout/activity_view_group_one.xml" value="0.38645833333333335" />
       </map>
     </option>
   </component>

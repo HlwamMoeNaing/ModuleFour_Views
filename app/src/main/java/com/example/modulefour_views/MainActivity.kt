@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.modulefour_views.MyTests.ImageViewActivity
-import com.example.modulefour_views.assignments.ImageEdTextAndBtnAssignmentActivity
+import com.example.modulefour_views.views.ImageEdTextAndBtnAssignmentActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

@@ -11,4 +11,21 @@
     <string name="watermelon"> Watermelon </string>
     <string name="check_fruit">Check Fruit</string>
     <string name="your_fruits">Your Fruits</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="toggleOn">ON</string>
+    <string name="toggleOFF">OFF</string>
+    <string name="door_lock">Door Lock</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <string name="turning_on_room_light">Turning on Room Light</string>
+    <string name="turning_off_room_light">Turning off Room Light</string>
+    <string name="brightness_status">0.5</string>
+    <string name="rating">Rating</string>
+    <string name="start_progress">Start Progress</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="pick_time">Pick Time</string>
+    <string name="selecteddate">SelectedDate</string>
+    <string name="selectedTime">Selected Time</string>
+    <string name="camera_defination">a boxlike device for holding a film or plate sensitive to light, having an aperture controlled by a shutter that, when opened, admits light enabling an object to be focused, usually by means of a lens, on the film or plate, thereby producing a photographic image</string>
 </resources>
